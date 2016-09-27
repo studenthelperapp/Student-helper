@@ -1,0 +1,41 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: aliceblue;
+}
+#fb-root{
+    width:100vw;
+    height:60vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.fb-login-button{
+    width:100vw;
+    height:auto;
+    padding-left: 45vw;
+    padding-right: 45vw;
+}
+
+.g-signin2{
+    width:100vw;
+    margin-top: 20%;
+    padding-left: 45vw;
+    padding-right: 45vw;
+}
+
+@media only screen and (max-width: 768px) {
+    
+}
+
+
+@media only screen and (max-width: 414px) {
+  .fb-login-button{  
+    padding-left: 35vw;
+    padding-right: 35vw;
+}
+  .g-signin2{  
+    padding-left: 35vw;
+    padding-right: 35vw;
+}   
+}
