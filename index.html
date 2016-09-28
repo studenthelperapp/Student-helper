@@ -39,9 +39,19 @@
         fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));
     </script> 
-        
+    
+    <div id="login">
+    <input type="text" id="name" placeholder="User Name"/>
+    <br/><br/>
+    <input type="text" id="password" placeholder="Password"/>
+    <br/><br/><br/>
+    <button id="log">Login</button>
+    </div>
+    <br/><br/>
+    <div id="login2">
     <div class="fb-login-button" data-max-rows="1" data-size="xlarge" data-show-faces="false" data-auto-logout-link="false"></div>
-    <div class="g-signin2" data-onsuccess="onSignIn"></div>    
+    <div class="g-signin2" data-onsuccess="onSignIn"></div>  
+    </div>
     </body>
     <script src="js/login.js"></script>
     <script>
@@ -60,6 +70,5 @@
     });
   }*/
 </script>
-   
     <script src="https://apis.google.com/js/platform.js" async defer></script>
 </html>
