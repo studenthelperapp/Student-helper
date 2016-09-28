@@ -1,41 +1,96 @@
 body{
     padding: 0;
     margin: 0;
-    background-color: aliceblue;
+    background-color: #ffc02d;
 }
 #fb-root{
     width:100vw;
-    height:60vh;
+    height:45vh;
     margin-left: auto;
     margin-right: auto;
     display: block;
 }
-.fb-login-button{
-    width:100vw;
-    height:auto;
-    padding-left: 45vw;
-    padding-right: 45vw;
+
+#login{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 70vw;
+    height: 30vh;
 }
+
+#login2{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 90vw;
+    height: auto;
+}
+
+.fb-login-button{
+     margin-left: 8%;
+     width:40%;
+     height:20%;
+     color: green;
+     float:left;
+            }
 
 .g-signin2{
-    width:100vw;
-    margin-top: 20%;
-    padding-left: 45vw;
-    padding-right: 45vw;
+     margin-right: 8%;
+     width:40%;
+     height:20%;
+     float:right;
+            }
+
+#name{
+    width:65vw;
+    height:15%;
+    font-size: 12pt;
 }
 
+#log{
+    width:66vw;
+    height:20%;
+    font-size: 12pt;
+    background-color: #753aff;
+    color: white;
+}
+
+#password{
+    width:65vw;
+    height:15%;
+    font-size: 12pt;
+}
+
+
+
 @media only screen and (max-width: 768px) {
-    
+    .fb-login-button{
+     margin-left: 17%;
+     }
+
+.g-signin2{
+     margin-right:0;
+     }
 }
 
 
 @media only screen and (max-width: 414px) {
-  .fb-login-button{  
-    padding-left: 35vw;
-    padding-right: 35vw;
+  .fb-login-button{
+     margin-left: 8%;
+            }
+
+.g-signin2{
+     margin-right: 8%;
+     }
 }
-  .g-signin2{  
-    padding-left: 35vw;
-    padding-right: 35vw;
-}   
+
+@media only screen and (max-width: 320px) {
+  .fb-login-button{
+     margin-left: 5%;
+            }
+
+.g-signin2{
+     margin-right: 5%;
+     }
 }
